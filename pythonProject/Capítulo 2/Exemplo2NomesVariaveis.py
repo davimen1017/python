@@ -1,5 +1,5 @@
 #Variáveis não podem começar com números
-##76trombones = 'big parade'
+#76trombones = 'big parade'
 
 #Variáveis não podem começar com letra maiúscula
 # More = 1321318
