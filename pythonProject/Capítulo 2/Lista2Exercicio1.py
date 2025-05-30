@@ -1,0 +1,6 @@
+n1 = int(input('insira um número: '))
+n2 = int(input('insira outro número: '))
+print(f'A soma entre esse dois números é {n1+n2}')
+print(f'A diferença entre esses dois números é {n1-n2}')
+print(f'O produto entre esses dois números é {n1*n2}')
+print(f'O quociente desses dois números é {n1/n2} ')
