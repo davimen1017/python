@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas - Escola, Mercado e Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e1f5fe;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Primeira Tabela: Alunos -->
+    <h1>Alunos da Escola</h1>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Série</th>
+            <th>Nota Matemática</th>
+            <th>Nota Português</th>
+            <th>Nota Ciências</th>
+            <th>Nota História</th>
+            <th>Média</th>
+            <th>Situação</th>
+            <th>Turma</th>
+        </tr>
+        <tr><td>Ana Silva</td><td>14</td><td>8º</td><td>9.0</td><td>8.5</td><td>9.5</td><td>8.0</td><td>8.8</td><td>Aprovada</td><td>A</td></tr>
+        <tr><td>João Souza</td><td>13</td><td>7º</td><td>7.0</td><td>6.5</td><td>7.5</td><td>6.0</td><td>6.8</td><td>Aprovado</td><td>B</td></tr>
+        <tr><td>Maria Santos</td><td>15</td><td>9º</td><td>8.5</td><td>9.0</td><td>8.0</td><td>9.5</td><td>8.8</td><td>Aprovada</td><td>A</td></tr>
+        <tr><td>Carlos Lima</td><td>12</td><td>6º</td><td>6.0</td><td>5.5</td><td>6.5</td><td>7.0</td><td>6.3</td><td>Recuperação</td><td>C</td></tr>
+        <tr><td>Beatriz Rocha</td><td>14</td><td>8º</td><td>9.5</td><td>9.0</td><td>9.0</td><td>8.5</td><td>9.0</td><td>Aprovada</td><td>A</td></tr>
+        <tr><td>Lucas Pereira</td><td>13</td><td>7º</td><td>6.5</td><td>7.0</td><td>6.0</td><td>5.5</td><td>6.3</td><td>Recuperação</td><td>B</td></tr>
+        <tr><td>Fernanda Alves</td><td>15</td><td>9º</td><td>8.0</td><td>7.5</td><td>9.0</td><td>8.5</td><td>8.3</td><td>Aprovada</td><td>C</td></tr>
+        <tr><td>Ricardo Gomes</td><td>14</td><td>8º</td><td>7.5</td><td>8.0</td><td>7.0</td><td>6.5</td><td>7.3</td><td>Aprovado</td><td>B</td></tr>
+        <tr><td>Sofia Mendes</td><td>12</td><td>6º</td><td>9.0</td><td>8.5</td><td>8.0</td><td>9.5</td><td>8.8</td><td>Aprovada</td><td>C</td></tr>
+        <tr><td>Pedro Costa</td><td>15</td><td>9º</td><td>5.5</td><td>6.0</td><td>5.0</td><td>6.5</td><td>5.8</td><td>Reprovado</td><td>A</td></tr>
+    </table>
+
+    <!-- Segunda Tabela: Produtos -->
+    <h1>Produtos do Mercado</h1>
+    <table>
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Marca</th>
+            <th>Quantidade</th>
+            <th>Preço Unitário</th>
+            <th>Preço Total</th>
+            <th>Fabricante</th>
+            <th>Validade</th>
+            <th>Localização</th>
+        </tr>
+        <tr><td>001</td><td>Arroz</td><td>Alimento</td><td>Tio João</td><td>50</td><td>5.50</td><td>275.00</td><td>Tio João</td><td>12/2025</td><td>Corredor 1</td></tr>
+        <tr><td>002</td><td>Feijão</td><td>Alimento</td><td>Camil</td><td>40</td><td>7.00</td><td>280.00</td><td>Camil</td><td>11/2025</td><td>Corredor 1</td></tr>
+        <tr><td>003</td><td>Açúcar</td><td>Alimento</td><td>União</td><td>60</td><td>4.00</td><td>240.00</td><td>União</td><td>10/2025</td><td>Corredor 2</td></tr>
+        <tr><td>004</td><td>Café</td><td>Bebida</td><td>Pilão</td><td>30</td><td>12.00</td><td>360.00</td><td>JDE</td><td>05/2026</td><td>Corredor 3</td></tr>
+        <tr><td>005</td><td>Leite</td><td>Bebida</td><td>Itambé</td><td>80</td><td>4.50</td><td>360.00</td><td>Itambé</td><td>09/2025</td><td>Geladeira</td></tr>
+        <tr><td>006</td><td>Margarina</td><td>Laticínio</td><td>Qualy</td><td>25</td><td>6.50</td><td>162.50</td><td>Sadia</td><td>08/2025</td><td>Geladeira</td></tr>
+        <tr><td>007</td><td>Macarrão</td><td>Alimento</td><td>Renata</td><td>70</td><td>3.00</td><td>210.00</td><td>Selmi</td><td>01/2026</td><td>Corredor 2</td></tr>
+        <tr><td>008</td><td>Detergente</td><td>Limpeza</td><td>Ypê</td><td>100</td><td>2.50</td><td>250.00</td><td>Ypê</td><td>12/2027</td><td>Corredor 4</td></tr>
+        <tr><td>009</td><td>Sabonete</td><td>Higiene</td><td>Dove</td><td>90</td><td>3.80</td><td>342.00</td><td>Unilever</td><td>06/2027</td><td>Corredor 5</td></tr>
+        <tr><td>010</td><td>Shampoo</td><td>Higiene</td><td>Pantene</td><td>60</td><td>15.00</td><td>900.00</td><td>P&G</td><td>03/2027</td><td>Corredor 5</td></tr>
+    </table>
+
+    <!-- Terceira Tabela: Pacientes -->
+    <h1>Pacientes do Hospital</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Diagnóstico</th>
+            <th>Médico Responsável</th>
+            <th>Data Internação</th>
+            <th>Data Alta</th>
+            <th>Quarto</th>
+            <th>Status</th>
+        </tr>
+        <tr><td>101</td><td>Paulo Henrique</td><td>45</td><td>M</td><td>Pneumonia</td><td>Dr. Silva</td><td>01/09/2025</td><td>10/09/2025</td><td>201</td><td>Alta</td></tr>
+        <tr><td>102</td><td>Mariana Costa</td><td>32</td><td>F</td><td>Gripe</td><td>Dra. Souza</td><td>03/09/2025</td><td>06/09/2025</td><td>202</td><td>Alta</td></tr>
+        <tr><td>103</td><td>Ricardo Lima</td><td>60</td><td>M</td><td>Infarto</td><td>Dr. Oliveira</td><td>02/09/2025</td><td>-</td><td>301</td><td>Internado</td></tr>
+        <tr><td>104</td><td>Ana Beatriz</td><td>27</td><td>F</td><td>Fratura</td><td>Dra. Mendes</td><td>28/08/2025</td><td>05/09/2025</td><td>105</td><td>Alta</td></tr>
+        <tr><td>105</td><td>Lucas Santos</td><td>50</td><td>M</td><td>COVID-19</td><td>Dr. Ramos</td><td>30/08/2025</td><td>-</td><td>401</td><td>UTI</td></tr>
+        <tr><td>106</td><td>Fernanda Rocha</td><td>38</td><td>F</td><td>Diabetes</td><td>Dra. Lima</td><td>29/08/2025</td><td>04/09/2025</td><td>205</td><td>Alta</td></tr>
+        <tr><td>107</td><td>Carlos Pereira</td><td>70</td><td>M</td><td>AVC</td><td>Dr. Almeida</td><td>25/08/2025</td><td>-</td><td>305</td><td>Internado</td></tr>
+        <tr><td>108</td><td>Sofia Martins</td><td>22</td><td>F</td><td>Apendicite</td><td>Dra. Nunes</td><td>31/08/2025</td><td>03/09/2025</td><td>210</td><td>Alta</td></tr>
+        <tr><td>109</td><td>Pedro Gomes</td><td>55</td><td>M</td><td>Insuficiência Renal</td><td>Dr. Castro</td><td>20/08/2025</td><td>-</td><td>402</td><td>Internado</td></tr>
+        <tr><td>110</td><td>Juliana Alves</td><td>41</td><td>F</td><td>Hepatite</td><td>Dra. Freitas</td><td>15/08/2025</td><td>25/08/2025</td><td>110</td><td>Alta</td></tr>
+    </table>
+
+</body>
+</html>
