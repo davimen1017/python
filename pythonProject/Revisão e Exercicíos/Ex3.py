@@ -1,0 +1,5 @@
+combutivel = float(input('Qual o preço do combustível? '))
+odometroIncio = float(input('Qual a distância percorrida no início do dia ?'))
+odometroFinal = float(input('Qual a distância percorrida no final do dia ?'))
+lGasto  = float(input('Quantos litros de combustível foram gastos ?'))
+valorRecebido = float(input('Qual o valor recebido no dia ?'))
