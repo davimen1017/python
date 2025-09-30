@@ -1,0 +1,5 @@
+idade1 = int(input('Digite a idade da primeira pessoa: '))
+idade2 = int(input('Digite a idade da segunda pessoa: '))
+idade3 = int(input('Digite a idade da terceira pessoa: '))
+idade4 = int(input('Digite a idade da terceira pessoa: '))
+idade5 = int(input('Digite'))
